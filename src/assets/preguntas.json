@@ -1,0 +1,32 @@
+{
+    "true_false": [
+      {
+        "type": "true_false",
+        "question": "Un alfabeto es un conjunto no vacío finito de símbolos utilizados para construir Cadenas en un lenguaje.",
+        "correct_answer": true
+      },
+      {
+        "type": "true_false",
+        "question": "Un ",
+        "correct_answer": true
+      },
+      {
+        "type": "true_false",
+        "question": "Un alfabeto e finito de símbolos utilizados para construir Cadenas en un lenguaje.",
+        "correct_answer": true
+      },
+      {
+        "type": "true_false",
+        "question": "Un alfabeto es un coito de símbolos utilizados para construir Cadenas en un lenguaje.",
+        "correct_answer": true
+      }
+    ],
+    "complete" : [
+      {
+        "type": "complete",
+        "question": "Los links dinámicos en los registros de activación permiten implementar el ___",
+        "correct_answer": "ambiente dinámico"
+      }
+    ]
+  }
+  
