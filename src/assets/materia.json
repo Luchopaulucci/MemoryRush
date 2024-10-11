@@ -2,7 +2,7 @@
     "true_false": [
       {
         "type": "true_false",
-        "question": "cositas",
+        "question": "materias.",
         "correct_answer": true
       },
       {
@@ -24,9 +24,8 @@
     "complete" : [
       {
         "type": "complete",
-        "question": "Los links dináasdasdasdasd ___",
+        "question": "Los links materias ___",
         "correct_answer": "ambiente dinámico"
       }
     ]
   }
-  

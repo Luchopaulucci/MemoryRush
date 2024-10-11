@@ -1,16 +1,37 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
+import PropTypes from 'prop-types';
 
 import Preguntas from "../assets/preguntas.json";
+import Sintaxis from "../assets/ssl.json";
+import IngSociedad from "../assets/ing_soc.json";
+import Materias from "../assets/materia.json";
 
-const Card = () => {
+const Card = ({ matter }) => {
   const [input, setInput] = useState("");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questionType, setQuestionType] = useState("true_false");
+  const [filteredQuestions, setFilteredQuestions] = useState([]);
 
-  const filteredQuestions = Preguntas[questionType];
+  useEffect(() => {
+    handleMatter();
+  },);
 
-  const currentQuestion = filteredQuestions[currentQuestionIndex];
+  function handleMatter() {
+    let questions = [];
+    if (matter === "Sintaxis") {
+      questions = Sintaxis[questionType];
+    } else if (matter === "IngSociedad") {
+      questions = IngSociedad[questionType];
+    } else if (matter === "Preguntas") {
+      questions = Preguntas[questionType];
+    } else {
+      questions = Materias[questionType];
+    }
+    setFilteredQuestions(questions || []);
+  }
+
+  let currentQuestion = filteredQuestions[currentQuestionIndex];
 
   function handleVerification(select, correctAnswer) {
     if (select === correctAnswer) {
@@ -195,6 +216,10 @@ const Card = () => {
       )}
     </>
   );
+};
+
+Card.propTypes = {
+  matter: PropTypes.string
 };
 
 export default Card;
