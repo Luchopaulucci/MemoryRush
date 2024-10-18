@@ -109,7 +109,7 @@ const Card = ({ matter }) => {
 
   return (
     <>
-      <div className="flex justify-center gap-4 my-4">
+      <div className="max-h-max flex justify-center gap-4 my-4">
         <button
           className="p-2 rounded-lg"
           onClick={() => {
