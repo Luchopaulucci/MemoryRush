@@ -2,10 +2,8 @@ import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
 import PropTypes from "prop-types";
 
-import Preguntas from "../assets/preguntas.json";
 import Sintaxis from "../assets/ssl.json";
-import IngSociedad from "../assets/ing_soc.json";
-import Materias from "../assets/materia.json";
+import Administracion from "../assets/adp_parcial1.json";
 
 const Card = ({ matter }) => {
   const [input, setInput] = useState("");
@@ -21,12 +19,8 @@ const Card = ({ matter }) => {
     let questions = [];
     if (matter === "Sintaxis") {
       questions = Sintaxis[questionType];
-    } else if (matter === "IngSociedad") {
-      questions = IngSociedad[questionType];
-    } else if (matter === "Preguntas") {
-      questions = Preguntas[questionType];
     } else {
-      questions = Materias[questionType];
+      questions = Administracion[questionType];
     }
     setFilteredQuestions(questions || []);
   }
@@ -126,6 +120,15 @@ const Card = ({ matter }) => {
         >
           Completar
         </button>
+        <button
+          className="p-2 rounded-lg"
+          onClick={() => {
+            setQuestionType("multiple_choice");
+            setCurrentQuestionIndex(0);
+          }}
+        >
+          Multiple Opcion
+        </button>
       </div>
 
       {currentQuestion && (
@@ -204,6 +207,25 @@ const Card = ({ matter }) => {
                     Respuesta correcta
                   </button>
                 </div>
+              </div>
+            )}
+            {currentQuestion.type === "multiple_choice" && (
+              <div className="flex flex-col gap-4">
+                {currentQuestion.options.map((option, index) => (
+                  <button
+                    key={index}
+                    className="p-2 w-full bg-blue-500 rounded-lg"
+                    onClick={() => handleVerification(option.isCorrect, true)}
+                  >
+                    {option.textoRespuesta}
+                  </button>
+                ))}
+                <button
+                  className="p-2 w-max mt-4 bg-gray-600 rounded-lg"
+                  onClick={() => goToNextQuestion()}
+                >
+                  Siguiente pregunta
+                </button>
               </div>
             )}
           </div>

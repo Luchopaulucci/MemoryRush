@@ -1,0 +1,52 @@
+{
+    "true_false": [
+      {
+        "type": "true_false",
+        "question": "NO HAY PREGUNTAS",
+        "correct_answer": "-"
+      }
+    ],
+    "complete": [
+      {
+        "type": "complete",
+        "question": "NO HAY PREGUNTAS",
+        "correct_answer": "-"
+      }
+    ],
+    "multiple_choice": [
+      {
+        "type": "multiple_choice",
+        "question": "¿Cuál de las siguientes características describe un proyecto correctamente?",
+        "options": [
+          { "textoRespuesta": "Implica la coordinación de diversas tareas y recursos para alcanzar un resultado definido", "isCorrect": true },
+          { "textoRespuesta": "Es un proceso constante sin un inicio o fin claro", "isCorrect": false },
+          { "textoRespuesta": "No requiere planificación previa", "isCorrect": false },
+          { "textoRespuesta": "Es el mismo que una operación rutinaria", "isCorrect": false }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cómo nace un proyecto?",
+        "options": [
+          { "textoRespuesta": "A partir de un problema, oportunidad o necesidad, se genera una idea que se transforma en un objetivo, y se busca alcanzar ese objetivo mediante un producto que ofrezca una solución.", "isCorrect": true },
+          { "textoRespuesta": "Surge como resultado de la combinación de recursos disponibles sin un análisis previo.", "isCorrect": false },
+          { "textoRespuesta": "Nace de la presión externa de completar tareas sin un propósito definido.", "isCorrect": false },
+          { "textoRespuesta": "Inicia cuando un grupo de personas se une para compartir experiencias sin objetivos claros.", "isCorrect": false }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "¿Cómo y por qué nace la idea de emprender un proyecto de desarrollo de software?",
+        "options": [
+          { "textoRespuesta": "La idea de emprender un proyecto de desarrollo de software puede surgir a partir de la estrategia de la empresa, demandas del mercado, cambios en el entorno, o la necesidad de mejorar aplicaciones existentes para satisfacer necesidades internas.", "isCorrect": true },
+          { "textoRespuesta": "Generalmente nace de la necesidad de cumplir con las expectativas de los clientes sin realizar un análisis previo de mercado.", "isCorrect": false },
+          { "textoRespuesta": "Suele iniciarse por la presión de los directivos de la empresa para reducir costos operativos, sin considerar las necesidades del usuario final.", "isCorrect": false },
+          { "textoRespuesta": "Nace únicamente a partir de ideas espontáneas de los empleados, sin relación con los objetivos de la organización.", "isCorrect": false }
+        ]
+      }
+      
+
+      
+    ]
+  }
+  

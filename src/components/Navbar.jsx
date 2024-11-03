@@ -1,9 +1,7 @@
 const Navbar = () => {
   const matters = [
     { name: "SSL", href: "Sintaxis" },
-    { name: "Ing y Sociedad", href: "IngSociedad" },
-    { name: "Preguntas", href: "Preguntas" },
-    { name: "Materia X", href: "Materia" }
+    { name: "Adp", href: "AdministraciondeProyectos" }
   ];
   return (
     <nav className="max-h-max w-full fixed top-0 bg-inherit text-center p-6">
