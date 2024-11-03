@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 import Preguntas from "../assets/preguntas.json";
 import Sintaxis from "../assets/ssl.json";
@@ -15,7 +15,7 @@ const Card = ({ matter }) => {
 
   useEffect(() => {
     handleMatter();
-  },);
+  });
 
   function handleMatter() {
     let questions = [];
@@ -58,9 +58,7 @@ const Card = ({ matter }) => {
   }
 
   function handleInput(userInput, correctAnswer) {
-    if (
-      userInput.trim().toLowerCase() === correctAnswer.trim().toLowerCase()
-    ) {
+    if (userInput.trim().toLowerCase() === correctAnswer.trim().toLowerCase()) {
       Swal.fire({
         position: "top-end",
         icon: "success",
@@ -94,17 +92,17 @@ const Card = ({ matter }) => {
         title: "Has completado todas las preguntas!",
         showConfirmButton: true,
       });
-      setCurrentQuestionIndex(0)
+      setCurrentQuestionIndex(0);
     }
   }
 
-  function returnCorrectAnswer(correctAnswer) {
+  function showCorrectAnswer(correctAnswer) {
     Swal.fire({
       position: "center",
       icon: "question",
       title: "La respuesta correcta es: " + correctAnswer,
       showConfirmButton: true,
-    })
+    });
   }
 
   return (
@@ -166,9 +164,7 @@ const Card = ({ matter }) => {
                 </button>
                 <button
                   className="p-2 w-max"
-                  onClick={() =>
-                    goToNextQuestion()
-                  }
+                  onClick={() => goToNextQuestion()}
                 >
                   Siguiente pregunta
                 </button>
@@ -184,30 +180,29 @@ const Card = ({ matter }) => {
                   placeholder="Escribe tu respuesta aquí"
                 />
                 <div className="flex flex-row gap-6">
-                <button
-                  className="p-2 w-max"
-                  onClick={() =>
-                    handleInput(input, currentQuestion.correct_answer)
-                  }
-                >
-                  Verificar Respuesta
-                </button>
-                <button
-                  className="p-2 w-max"
-                  onClick={() =>
-                    goToNextQuestion()
-                  }
-                >
-                  Siguiente pregunta
-                </button>
-                <button
-                  className="p-2 w-max"
-                  onClick={() =>
-                    returnCorrectAnswer(currentQuestion.correct_answer)
-                  }
-                >
-                  Respuesta correcta
-                </button>
+                  <button
+                    className="p-2 w-max"
+                    onClick={() =>
+                      handleInput(input, currentQuestion.correct_answer)
+                    }
+                  >
+                    Verificar Respuesta
+                  </button>
+                  <button
+                    className="p-2 w-max"
+                    onClick={() => goToNextQuestion()}
+                  >
+                    Siguiente pregunta
+                  </button>
+                  <button
+                    className="p-2 w-max"
+                    onClick={() => {
+                        showCorrectAnswer(currentQuestion.correct_answer),
+                        goToNextQuestion();
+                    }}
+                  >
+                    Respuesta correcta
+                  </button>
                 </div>
               </div>
             )}
@@ -219,7 +214,7 @@ const Card = ({ matter }) => {
 };
 
 Card.propTypes = {
-  matter: PropTypes.string
+  matter: PropTypes.string,
 };
 
 export default Card;

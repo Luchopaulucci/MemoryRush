@@ -26,6 +26,16 @@
         "type": "complete",
         "question": "Los links dinámicos en los registros de activación permiten implementar el ___",
         "correct_answer": "ambiente dinámico"
+      },
+      {
+        "type": "complete",
+        "question": "la pregunta 2",
+        "correct_answer": "ambiente dinámico"
+      },
+      {
+        "type": "complete",
+        "question": "La pregunta 3",
+        "correct_answer": "ambiente dinámico"
       }
     ]
   }
