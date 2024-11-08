@@ -1,52 +1,1471 @@
 {
-    "true_false": [
-      {
-        "type": "true_false",
-        "question": "NO HAY PREGUNTAS",
-        "correct_answer": "-"
-      }
-    ],
-    "complete": [
-      {
-        "type": "complete",
-        "question": "NO HAY PREGUNTAS",
-        "correct_answer": "-"
-      }
-    ],
-    "multiple_choice": [
-      {
-        "type": "multiple_choice",
-        "question": "¿Cuál de las siguientes características describe un proyecto correctamente?",
-        "options": [
-          { "textoRespuesta": "Implica la coordinación de diversas tareas y recursos para alcanzar un resultado definido", "isCorrect": true },
-          { "textoRespuesta": "Es un proceso constante sin un inicio o fin claro", "isCorrect": false },
-          { "textoRespuesta": "No requiere planificación previa", "isCorrect": false },
-          { "textoRespuesta": "Es el mismo que una operación rutinaria", "isCorrect": false }
-        ]
-      },
-      {
-        "type": "multiple_choice",
-        "question": "¿Cómo nace un proyecto?",
-        "options": [
-          { "textoRespuesta": "A partir de un problema, oportunidad o necesidad, se genera una idea que se transforma en un objetivo, y se busca alcanzar ese objetivo mediante un producto que ofrezca una solución.", "isCorrect": true },
-          { "textoRespuesta": "Surge como resultado de la combinación de recursos disponibles sin un análisis previo.", "isCorrect": false },
-          { "textoRespuesta": "Nace de la presión externa de completar tareas sin un propósito definido.", "isCorrect": false },
-          { "textoRespuesta": "Inicia cuando un grupo de personas se une para compartir experiencias sin objetivos claros.", "isCorrect": false }
-        ]
-      },
-      {
-        "type": "multiple_choice",
-        "question": "¿Cómo y por qué nace la idea de emprender un proyecto de desarrollo de software?",
-        "options": [
-          { "textoRespuesta": "La idea de emprender un proyecto de desarrollo de software puede surgir a partir de la estrategia de la empresa, demandas del mercado, cambios en el entorno, o la necesidad de mejorar aplicaciones existentes para satisfacer necesidades internas.", "isCorrect": true },
-          { "textoRespuesta": "Generalmente nace de la necesidad de cumplir con las expectativas de los clientes sin realizar un análisis previo de mercado.", "isCorrect": false },
-          { "textoRespuesta": "Suele iniciarse por la presión de los directivos de la empresa para reducir costos operativos, sin considerar las necesidades del usuario final.", "isCorrect": false },
-          { "textoRespuesta": "Nace únicamente a partir de ideas espontáneas de los empleados, sin relación con los objetivos de la organización.", "isCorrect": false }
-        ]
-      }
-      
-
-      
-    ]
-  }
-  
+  "true_false":[
+     {
+        "type":"true_false",
+        "question":"NO HAY PREGUNTAS",
+        "correct_answer":true
+     }
+  ],
+  "complete":[
+     {
+        "type":"complete",
+        "question":"NO HAY PREGUNTAS",
+        "correct_answer":"-"
+     }
+  ],
+  "multiple_choice":[
+     
+        {
+           "type":"multiple_choice",
+           "question":"Características de un Proyecto",
+           "options":[
+              {
+                 "textoRespuesta":"Un proyecto es temporal, único y busca crear un producto, servicio o resultado específico. Es un esfuerzo temporal llevado a cabo para cumplir con objetivos definidos, utilizando recursos limitados.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un proyecto es un proceso continuo que no necesita de objetivos definidos",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proyecto puede llevarse a cabo sin un propósito específico",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proyecto es un esfuerzo permanente sin restricciones de tiempo o recursos",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cómo nace un proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"Un proyecto puede nacer de diferentes orígenes, como el plan estratégico de la empresa, demanda del mercado, cambios en el entorno o necesidades de soporte informático. También puede ser por avances tecnológicos o requerimientos legales.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un proyecto siempre surge de la elección personal de los empleados",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proyecto solo nace cuando se finaliza otro proyecto",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proyecto solo se origina por una crisis en la empresa",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cómo y por qué nace la idea de emprender un proyecto de desarrollo de software?",
+           "options":[
+              {
+                 "textoRespuesta":"Los proyectos de software generalmente surgen de la necesidad de satisfacer demandas internas o externas, como soporte a otras áreas de la empresa, o mejoras necesarias para que las aplicaciones funcionen mejor.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Los proyectos de software nacen sin ninguna necesidad específica",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Solo surgen por iniciativa de los desarrolladores",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Solo nacen cuando se requiere reemplazar software obsoleto",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cómo se conforma un estudio de factibilidad?",
+           "options":[
+              {
+                 "textoRespuesta":"El estudio de factibilidad evalúa si un proyecto es viable. Este incluye aspectos técnicos, económicos, operativos y comerciales, así como el análisis del entorno y la detección de necesidades.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"El estudio de factibilidad solo analiza aspectos comerciales",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Se centra únicamente en los recursos humanos necesarios",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Solo considera el aspecto económico del proyecto",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué es un proyecto? Definición completa de proyecto",
+           "options":[
+              {
+                 "textoRespuesta":"Un proyecto es cualquier esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único, con un inicio y un fin definidos. Los proyectos son innovadores y buscan solucionar problemas específicos o mejorar situaciones existentes.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un proyecto es un proceso continuo sin fecha de inicio ni fin",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proyecto no necesita objetivos específicos",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es un esfuerzo permanente que no busca innovación",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué crea un proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"Un proyecto crea productos entregables únicos, que pueden ser un producto, un servicio, o un resultado, como un documento, informe, o una nueva capacidad para ofrecer un servicio.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un proyecto solo genera documentos internos",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proyecto no produce resultados específicos",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proyecto solo genera resultados tangibles",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Ejemplos de los que SI son proyectos y cuales NO son tareas operativas",
+           "options":[
+              {
+                 "textoRespuesta":"Proyectos: Desarrollar un nuevo producto o servicio, diseñar un nuevo vehículo, construir una casa, implementar un nuevo procedimiento. Tareas operativas: Atender pacientes en un hospital, procesar facturas, manejar un colectivo por una ruta regular.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Proyectos: Procesar facturas, Tareas operativas: Desarrollar un nuevo producto",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"No hay diferencia entre proyectos y tareas operativas",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Tareas operativas y proyectos son lo mismo",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuándo termina un proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"Cuando se cumplen los objetivos específicos que se establecieron al inicio, o cuando se determina que el proyecto ya no es viable. Puede terminar también cuando se agotan los recursos o el tiempo asignado.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Cuando el proyecto ha alcanzado el doble del tiempo estimado sin resultados",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Cuando todos los miembros del equipo renuncian",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Cuando el gerente del proyecto decide finalizarlo por cualquier motivo",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Definición de administración de proyectos. ¿En qué se basa la administración de proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"Es la aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades del proyecto para cumplir con los requerimientos. Se basa en la planificación, ejecución y control de recursos de forma estructurada.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Es la gestión exclusiva de personal sin involucrar otros recursos",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es la ejecución de tareas sin planificación previa",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es simplemente la asignación de recursos sin supervisión",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cómo gestiono un proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"Gestionar un proyecto implica planificar, organizar, dirigir y controlar los recursos para alcanzar los objetivos específicos. Este proceso incluye la definición del alcance, cronograma y presupuesto.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Con una planificación superficial sin establecer un cronograma o presupuesto",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Sincronizando únicamente las actividades de los empleados",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Asignando el mismo nivel de prioridad a todas las tareas",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Diferencias entre proyecto y proceso",
+           "options":[
+              {
+                 "textoRespuesta":"Proyecto: Temporal y único, con un objetivo definido y recursos limitados. Proceso: Continuo y repetitivo, diseñado para mantener el funcionamiento diario del negocio.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Ambos son procesos sin fin específico y no requieren objetivos definidos",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Proceso y proyecto son términos intercambiables",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proceso es temporal y único, mientras que un proyecto es continuo",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Proyecto vs producto: qué es un producto y la administración de productos",
+           "options":[
+              {
+                 "textoRespuesta":"Un proyecto es temporal y busca crear un producto o servicio único, mientras que un producto es un resultado tangible que puede ser entregado al cliente. La administración de productos se centra en el ciclo de vida del producto desde su creación hasta su entrega.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un producto es lo mismo que un proyecto",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un proyecto es continuo, y un producto no requiere administración",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"La administración de productos se enfoca solo en la fase de diseño",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Definición de actividad, hito, entregable, producto de trabajo y tarea",
+           "options":[
+              {
+                 "textoRespuesta":"Actividad: Una tarea que se realiza como parte del proyecto. Hito: Un punto clave en el cronograma que marca el fin de una fase o una entrega importante. Entregable: Un resultado específico del proyecto, como un documento o un producto terminado. Producto de trabajo: Un bien o resultado generado en el curso del proyecto. Tarea: Una acción específica que contribuye a la finalización de una actividad.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Hito: Cualquier actividad, Producto de trabajo: un entregable cualquiera",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Tarea: Un elemento que no contribuye al proyecto",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Entregable: Elemento no considerado en el cronograma",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Nombre las características del desarrollo de software",
+           "options":[
+              {
+                 "textoRespuesta":"Los proyectos de software son complejos y requieren una definición clara de objetivos, alcances y suposiciones. Son únicos y pueden involucrar una gran cantidad de personas, con una planificación cuidadosa para cumplir con las restricciones de tiempo, recursos y presupuesto.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Los proyectos de software son procesos simples y no requieren planificación",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Los proyectos de software se pueden realizar sin restricciones de tiempo",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Los proyectos de software no involucran personas en su desarrollo",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Definición de Kick-off",
+           "options":[
+              {
+                 "textoRespuesta":"El Kick-off es una reunión inicial del proyecto donde se presentan los equipos de trabajo y se alinean las expectativas del cliente. Sirve para formalizar el comienzo de la ejecución del proyecto.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"El Kick-off es una fase final del proyecto donde se presentan los resultados obtenidos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El Kick-off es una reunión opcional y no tiene influencia en el proyecto.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El Kick-off es una evaluación del rendimiento al final del proyecto.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"En qué se diferencia la administración de proyectos informáticos de los proyectos tradicionales. Nombre las diferencias",
+           "options":[
+              {
+                 "textoRespuesta":"Proyectos informáticos: Suelen ser más flexibles y adaptables, con cambios frecuentes y ciclos cortos de desarrollo. Proyectos tradicionales: Siguen una metodología más rígida y estructurada, con mayor énfasis en la planificación y control estricto.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Proyectos informáticos: No requieren planificación. Proyectos tradicionales: No tienen cambios y son siempre flexibles.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"No existen diferencias entre proyectos informáticos y proyectos tradicionales.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Proyectos informáticos son más estrictos en el control que los tradicionales.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuál es el objetivo de un proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"El objetivo de un proyecto es cumplir con los requerimientos y expectativas de los interesados, entregando un producto o servicio que resuelva un problema o aproveche una oportunidad.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"El objetivo de un proyecto es simplemente finalizar el trabajo sin importar el resultado.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El objetivo de un proyecto es solo cumplir con el presupuesto asignado.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El objetivo de un proyecto es únicamente cumplir con un plazo sin calidad.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Nombre 5 aspectos que debe cumplir un proyecto al definir un objetivo",
+           "options":[
+              {
+                 "textoRespuesta":"Específico, Medible, Alcanzable, Realista, Limitado en tiempo (objetivo SMART).",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Económico, Flexible, Fácil, Medible, Rápido.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Amplio, Ilimitado en tiempo, Abstracto, Indeterminado, Alcanzable.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Costoso, Inmediato, No medible, Cambiable, Temporal.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Definición de alcance, restricción y supuesto",
+           "options":[
+              {
+                 "textoRespuesta":"Alcance: Todo el trabajo que se debe realizar para cumplir con los objetivos del proyecto. Restricción: Limitaciones en tiempo, costo o recursos que afectan al proyecto. Supuesto: Cualquier cosa que se considera cierta o que se da por hecho durante la planificación del proyecto.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Alcance: Lo que se desea evitar en el proyecto. Restricción: Metas opcionales. Supuesto: Las limitaciones temporales.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Alcance: Opciones adicionales en el proyecto. Restricción: Todo el trabajo necesario. Supuesto: El tiempo necesario.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Alcance: Es la última fase del proyecto. Restricción: Son ventajas del proyecto. Supuesto: Los aspectos económicos.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué es la triple restricción en un proyecto? (triángulo de hierro) ¿Qué conflictos tiene el líder?",
+           "options":[
+              {
+                 "textoRespuesta":"La triple restricción es el equilibrio entre el tiempo, el costo y el alcance del proyecto. El líder debe gestionar conflictos entre estos tres elementos, ya que un cambio en uno afecta a los otros dos.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"La triple restricción incluye solo el tiempo y el presupuesto, sin relación con el alcance.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"La triple restricción se refiere a la comunicación, creatividad y flexibilidad del líder.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"La triple restricción se centra únicamente en los resultados, sin importancia del tiempo y costo.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Defina qué es un cronograma y para qué sirve?",
+           "options":[
+              {
+                 "textoRespuesta":"El cronograma es una herramienta que organiza el tiempo del proyecto, indicando cuándo deben completarse las diferentes actividades y entregables. Sirve para asegurar que el proyecto se mantenga dentro de los plazos establecidos.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"El cronograma es un resumen final de todo el trabajo realizado en el proyecto.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El cronograma solo indica las tareas más importantes, sin fechas específicas.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El cronograma es una herramienta utilizada solo al final para evaluar el proyecto.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Diagrama de Gantt: ¿cómo se manejan los cambios en el cronograma? ¿Qué debe hacer el equipo ante los cambios?",
+           "options":[
+              {
+                 "textoRespuesta":"El Diagrama de Gantt es una representación gráfica del cronograma. Los cambios en el cronograma se deben gestionar a través de revisiones y actualizaciones, y el equipo debe estar informado para ajustar su trabajo.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"El Diagrama de Gantt es una herramienta que no permite realizar cambios una vez creado.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Los cambios en el cronograma no afectan al equipo, por lo que no necesitan estar informados.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El equipo debe detener el proyecto y reiniciar el cronograma ante cualquier cambio.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué métodos usa un líder de proyecto para actualizar un cronograma?",
+           "options":[
+              {
+                 "textoRespuesta":"El líder de proyecto puede utilizar varios métodos para actualizar un cronograma, como seguimiento del progreso, reprogramación, ajuste de recursos, métodos de control de línea base y software de gestión de proyectos.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"El líder de proyecto solo necesita actualizar el cronograma si el equipo lo solicita.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El cronograma no se actualiza; se mantiene igual desde el inicio hasta el fin del proyecto.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El líder de proyecto solo utiliza métodos manuales para actualizar el cronograma, sin apoyo de software.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Para qué se usan los reportes de progreso y el monitoreo?",
+           "options":[
+              {
+                 "textoRespuesta":"Los reportes de progreso informan sobre el estado actual del proyecto y permiten visualizar el avance y comunicar la situación a los interesados. El monitoreo es el proceso continuo de seguimiento del desempeño para asegurar alineación con el plan y detectar problemas tempranamente.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Los reportes de progreso y el monitoreo solo se utilizan para registrar horas de trabajo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El monitoreo solo se usa para archivar el proyecto al final de su ejecución.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Los reportes de progreso son informes de actividades futuras del proyecto.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son y en qué consisten las técnicas de acciones correctivas para corregir un cronograma?",
+           "options":[
+              {
+                 "textoRespuesta":"Las técnicas incluyen compresión del cronograma (Fast Tracking y Crashing), reprogramación, reasignación de recursos y optimización de recursos.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Las acciones correctivas incluyen solo el uso de software para acelerar el cronograma.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Las técnicas solo consisten en eliminar tareas para reducir el tiempo total.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"La única técnica es reprogramar todas las actividades del proyecto.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué criterios se siguen para el proceso del desarrollo del cronograma?",
+           "options":[
+              {
+                 "textoRespuesta":"Definir actividades, secuenciar actividades, estimar duración, asignar recursos, establecer la línea base del cronograma, evaluar riesgos y optimización.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Definir recursos y estimar actividades, sin necesidad de secuenciar.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Solo definir el alcance general del proyecto y asignar actividades.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Evaluar únicamente el tiempo y el costo sin otros criterios.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son los beneficios de trabajar con un equipo pequeño?",
+           "options":[
+              {
+                 "textoRespuesta":"Mejor comunicación, mayor cohesión, flexibilidad, toma de decisiones rápida.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Mayor dependencia de la dirección y control constante.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Mayor cantidad de opiniones, lo que hace la toma de decisiones más lenta.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Más burocracia debido al tamaño reducido del equipo.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son los elementos claves de la gestión ágil?",
+           "options":[
+              {
+                 "textoRespuesta":"Iteración y retroalimentación continua, flexibilidad, colaboración cercana con el cliente, entregas incrementales, autoorganización.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Ciclos de trabajo largos con entregas al final del proyecto.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Estructuras jerárquicas rígidas y roles bien definidos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Planificación extensa sin cambios permitidos.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Por qué surgen las metodologías ágiles?",
+           "options":[
+              {
+                 "textoRespuesta":"Como respuesta a las limitaciones de las metodologías tradicionales, con ciclos cortos de desarrollo, colaboración constante y capacidad de respuesta al cambio.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Porque los ciclos largos son más efectivos en proyectos grandes.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Para evitar cualquier cambio durante el desarrollo del proyecto.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Para eliminar completamente la necesidad de documentar los proyectos.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son los valores del Manifiesto ágil?",
+           "options":[
+              {
+                 "textoRespuesta":"Individuos e interacciones, software que funcione, colaboración con el cliente, responder al cambio.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Procesos sobre interacciones, documentos extensos, contratos estrictos, seguir el plan sin cambios.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Roles jerárquicos, planificación extensa, cumplimiento de plazos estrictos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Solo el cumplimiento de tiempos y costos fijos.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuál es la principal diferencia en el enfoque de gestión ágil y tradicional?",
+           "options":[
+              {
+                 "textoRespuesta":"En la gestión tradicional, el enfoque está en controlar el alcance; en la ágil, el tiempo y costos son fijos y el alcance es flexible.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"La gestión ágil se centra en la planificación sin posibilidad de ajustes.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"La gestión tradicional prioriza la entrega rápida sobre el cumplimiento de plazos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"En ambos enfoques, solo el alcance es importante.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Defina Scrum.",
+           "options":[
+              {
+                 "textoRespuesta":"Scrum es una metodología ágil basada en ciclos cortos llamados sprints, que duran de 2 a 4 semanas, y permite entregar incrementos funcionales al final de cada sprint.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Scrum es una técnica de planificación a largo plazo sin ciclos cortos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Scrum se basa en una estructura jerárquica rígida para controlar todas las tareas del equipo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Scrum no permite modificaciones ni ajustes durante el proyecto.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Defina un sprint.",
+           "options":[
+              {
+                 "textoRespuesta":"Un sprint es un ciclo de trabajo corto en Scrum, de 2 a 4 semanas, en el que el equipo realiza tareas definidas para entregar un incremento del producto.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un sprint es la fase de planificación extensa en proyectos ágiles.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un sprint es un periodo de desarrollo largo sin entregas.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El sprint solo se realiza una vez al final del proyecto.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son los roles en el proceso ágil y sus funciones?",
+           "options":[
+              {
+                 "textoRespuesta":"Scrum Master: facilita el proceso y elimina impedimentos; Product Owner: gestiona el Product Backlog; Equipo de desarrollo: entrega incrementos del producto.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Scrum Master: gestiona el Product Backlog; Product Owner: entrega el producto; Equipo de desarrollo: facilita el proceso.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Product Owner: facilita el proceso; Equipo de desarrollo: prioriza el trabajo; Scrum Master: ejecuta el trabajo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Scrum Master: se encarga del cliente; Product Owner: elimina impedimentos; Equipo de desarrollo: planifica el sprint.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son las ceremonias en Scrum?",
+           "options":[
+              {
+                 "textoRespuesta":"Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Sprint Planning, Sprint Retrospective, Product Backlog, Roadmap",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Sprint Planning, Reuniones de equipo, Roadmap, Sprint Review",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Daily Scrum, Sprint Review, Product Delivery, Team Planning",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son las partes de un Sprint Planning?",
+           "options":[
+              {
+                 "textoRespuesta":"Definición del objetivo del sprint, selección de tareas del Product Backlog, creación del Sprint Backlog.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Selección de tareas, ejecución del sprint, revisión de entregas.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Definición del backlog, planificación del día, asignación de recursos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Objetivo del sprint, selección de tareas, preparación del Product Backlog.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué es el Product Backlog y qué contiene?",
+           "options":[
+              {
+                 "textoRespuesta":"Es una lista priorizada de tareas, contiene historias de usuario, características, bugs y tareas técnicas.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Es la planificación del sprint, contiene solo historias de usuario.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es la lista de recursos, contiene roles y tareas técnicas.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es una lista sin prioridades, contiene tareas pendientes.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué preguntas clave debes hacer para medir un requisito?",
+           "options":[
+              {
+                 "textoRespuesta":"¿Es claro, necesario, verificable y cuantificable?",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"¿Es costoso, repetible, medible y flexible?",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"¿Es el recurso eficiente, medible y libre de cambios?",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"¿Es técnico, específico y está aprobado?",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son ejemplos de métricas para el análisis de requisitos?",
+           "options":[
+              {
+                 "textoRespuesta":"Cantidad de requisitos implementados vs. planificados, tasa de cambio de requisitos, requisitos aprobados en la primera revisión.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Tiempo de desarrollo, coste de implementación, duración de reuniones.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Cantidad de errores de código, calidad del diseño, número de entregas.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Cantidad de entregas, coste de cambio de alcance, frecuencia de reuniones.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué es el alcance del proyecto y en qué nos ayuda?",
+           "options":[
+              {
+                 "textoRespuesta":"Es la definición de todo el trabajo del proyecto, ayuda a evitar expansiones no planificadas y permite mejor planificación y control de recursos.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Es la cantidad de recursos, ayuda a reducir costes y tiempos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es el plan del cronograma, ayuda a completar entregas rápidamente.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es la lista de entregables, ayuda a calcular el tiempo necesario.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son las fases en el proceso de alcance del proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"Recopilación de requisitos, definición del alcance, creación de la EDT, verificación del alcance, control del alcance.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Definición de recursos, planificación de actividades, control de entregas.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Verificación de requisitos, seguimiento de tareas, control de presupuesto.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Planificación del cronograma, verificación del presupuesto, revisión de entregables.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuál es la diferencia entre el alcance del proyecto y el alcance del producto?",
+           "options":[
+              {
+                 "textoRespuesta":"El alcance del proyecto incluye el trabajo necesario para entregar el producto, mientras que el alcance del producto describe las características y funcionalidades del mismo.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"El alcance del proyecto se enfoca en las características del producto, mientras que el alcance del producto se enfoca en la gestión del equipo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El alcance del proyecto se refiere a los recursos, mientras que el alcance del producto se refiere al cronograma.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Ambos se refieren a lo mismo, ya que abarcan el trabajo total necesario para completar el proyecto.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué permiten las iteraciones en un sprint?",
+           "options":[
+              {
+                 "textoRespuesta":"Permiten ajustes rápidos, entrega incremental y corrección temprana de errores.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Permiten reducir costos, aumentar los recursos y eliminar requisitos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Permiten reducir el tiempo de desarrollo y evitar cambios en los requisitos.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Permiten corregir errores solo al final y evitar la entrega de funcionalidades durante el sprint.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son algunas herramientas para seguir un proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"Software de gestión de proyectos, diagramas de Gantt, tableros Kanban, EDT o WBS, y burn-down charts.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Solo diagramas de Gantt y tableros Kanban.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Software de contabilidad y EDT.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"EDT, WBS, software de diseño y cronogramas de mantenimiento.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué es un EDT (Estructura de Desglose del Trabajo) y cuál es su propósito?",
+           "options":[
+              {
+                 "textoRespuesta":"Es una representación jerárquica de todas las tareas del proyecto; su propósito es dividir el trabajo en componentes manejables para facilitar la gestión.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Es una lista de los recursos necesarios; su propósito es organizar el inventario.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es una lista de los entregables del cliente; su propósito es priorizar las tareas del equipo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es una estructura de planificación de costos; su propósito es controlar el presupuesto.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son algunos problemas comunes en el alcance de un proyecto?",
+           "options":[
+              {
+                 "textoRespuesta":"Expansión del alcance, malentendidos en los requisitos, mal manejo de cambios, y falta de claridad en los entregables.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Solo falta de recursos y falta de tiempo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Solamente falta de comunicación entre el equipo y falta de experiencia.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Ninguno, ya que todos los proyectos tienen los mismos problemas.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cómo son los equipos de alto desempeño?",
+           "options":[
+              {
+                 "textoRespuesta":"Son equipos con un objetivo común claro, roles definidos, autónomos, colaborativos y creativos.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Son equipos que dependen completamente de un líder para tomar decisiones.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Son equipos con poca colaboración y cada miembro trabaja de manera independiente.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Son equipos que siempre buscan cumplir los objetivos sin ningún tipo de adaptabilidad.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son las cuatro fases del modelo de desarrollo de equipos de Tuckman?",
+           "options":[
+              {
+                 "textoRespuesta":"Forming, Storming, Norming, Performing.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Forming, Norming, Performing, Adjourning.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Adjourning, Storming, Norming, Forming.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Performing, Storming, Forming, Norming.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué identifica el liderazgo situacional?",
+           "options":[
+              {
+                 "textoRespuesta":"Que no existe un único estilo de liderazgo efectivo, debe adaptarse según la situación y madurez del equipo.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Que todos los líderes deben adoptar el mismo estilo de liderazgo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Que un líder debe ser completamente autoritario para ser efectivo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Que los miembros del equipo deben adaptarse al estilo del líder.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuál es la diferencia entre un equipo y un grupo de trabajo?",
+           "options":[
+              {
+                 "textoRespuesta":"Un equipo trabaja con un objetivo común y tiene roles interdependientes, mientras que un grupo de trabajo trabaja de manera independiente.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un grupo de trabajo tiene un objetivo común, mientras que un equipo trabaja sin un objetivo claro.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un equipo tiene más miembros que un grupo de trabajo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Ambos son lo mismo, no hay diferencia entre ellos.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son los elementos fundamentales en los equipos?",
+           "options":[
+              {
+                 "textoRespuesta":"Confianza, objetivo común, roles claros, comunicación efectiva y colaboración.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Confianza, disciplina, roles ambiguos y trabajo independiente.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Objetivos personales, comunicación jerárquica y trabajo aislado.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Roles indefinidos, objetivos no definidos y trabajo sin comunicación.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué factores pueden causar que los equipos fallen?",
+           "options":[
+              {
+                 "textoRespuesta":"Roles poco claros, falta de confianza, liderazgo deficiente, conflictos no gestionados, falta de comunicación, metas mal definidas.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Exceso de comunicación, buena delegación de tareas y alta motivación.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Tener demasiados recursos y tareas bien definidas.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Falta de roles claros, pero comunicación excelente.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son las 5 Cs en los proyectos informáticos?",
+           "options":[
+              {
+                 "textoRespuesta":"Colaboración, comunicación, coordinación, confianza, compromiso.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Comunicación, claridad, competencia, confianza, control.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Coordinación, compromiso, creatividad, capacidad, confianza.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Comunicación, claridad, coordinación, compromiso, control.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué cualidades debe tener un líder para dirigir eficazmente un equipo de trabajo?",
+           "options":[
+              {
+                 "textoRespuesta":"Comunicación clara, capacidad para motivar, resolver conflictos, ser flexible y delegar tareas.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Capacidad para dar órdenes, controlar y no delegar.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Ser autoritario y enfocado solo en los resultados.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Falta de comunicación y delegación de tareas sin supervisión.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son las principales diferencias entre un jefe y un líder de equipo?",
+           "options":[
+              {
+                 "textoRespuesta":"Un jefe da órdenes, mientras que un líder inspira y motiva.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un jefe se enfoca en guiar, mientras que un líder se enfoca en controlar.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un jefe motiva a su equipo, mientras que un líder simplemente dirige el trabajo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un jefe tiene menos autoridad que un líder en el equipo.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cuáles son los modelos de liderazgo más efectivos?",
+           "options":[
+              {
+                 "textoRespuesta":"Liderazgo transformacional, situacional y democrático.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Liderazgo autocrático, participativo y autogestionado.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Liderazgo autoritario, laissez-faire y coercitivo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Liderazgo pasivo, democrático y autoritario.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué cualidades debe tratar de potenciar un líder en los colaboradores de su equipo?",
+           "options":[
+              {
+                 "textoRespuesta":"Comunicación efectiva, colaboración, flexibilidad, responsabilidad, iniciativa y creatividad.",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Capacidad de delegar tareas sin involucrarse en el equipo.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Competitividad y trabajo individual.",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Disciplina rígida y control absoluto sobre las tareas.",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Qué es el coaching?",
+           "options":[
+              {
+                 "textoRespuesta":"Es un proceso no directivo en el que un coach ayuda a una persona o equipo a alcanzar sus objetivos mediante preguntas reflexivas y acompañamiento",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Es un proceso de liderazgo en el que se imponen objetivos sin consultar a los involucrados",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es una técnica para enseñar habilidades mediante ejercicios prácticos",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es una terapia psicológica dirigida a solucionar problemas personales",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿En qué consiste el outsourcing? Indique según la cesión de responsabilidades cómo cambia su nombre",
+           "options":[
+              {
+                 "textoRespuesta":"Es la externalización de funciones o procesos de una empresa a un proveedor externo especializado, optimizando costos",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Es la internalización de procesos operativos para mejorar la eficiencia de la empresa",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es el proceso de contratar personal en el extranjero para reducir costos laborales",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Es un modelo de negocios donde la empresa contrata personal directamente, sin intermediarios",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Quién es un Consultor? ¿Por qué contratarlo?",
+           "options":[
+              {
+                 "textoRespuesta":"Un consultor es un experto externo que brinda asesoramiento profesional para ayudar a una organización a mejorar sus procesos y resolver problemas",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Un consultor es un empleado interno que asesora en diferentes áreas de la empresa",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un consultor es un entrenador que ayuda a los empleados a mejorar habilidades específicas",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Un consultor es un gerente de proyecto que dirige el equipo de trabajo",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Tipos de consultores: clasificaciones principales",
+           "options":[
+              {
+                 "textoRespuesta":"Consultor estratégico, técnico, de procesos, de recursos humanos y financiero",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Consultor de proyectos, consultor de ventas, consultor de TI",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Consultor de marketing, consultor de operaciones, consultor de innovación",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Consultor ejecutivo, consultor de liderazgo, consultor de desarrollo personal",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Objetivo de un área de sistemas",
+           "options":[
+              {
+                 "textoRespuesta":"Desarrollar, implementar y mantener soluciones tecnológicas que apoyen los procesos operativos y estratégicos de la organización",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Realizar análisis financieros y establecer presupuestos para el área tecnológica",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Proveer servicios de soporte técnico a los usuarios de la empresa",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Gestionar recursos humanos dentro del departamento tecnológico",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Cuáles son los factores a considerar en la selección de la estructura del proyecto de desarrollo de CVDS",
+           "options":[
+              {
+                 "textoRespuesta":"Tamaño del equipo, competencias y habilidades, disponibilidad de recursos, plazos de entrega y modelo de desarrollo",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Cantidad de presupuesto y tiempo estimado de desarrollo",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Nivel de automatización y la integración con sistemas existentes",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Presencia de expertos en el área tecnológica y el tipo de clientes potenciales",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"Objetivos, descripción, responsabilidades y diferencias de los principales roles: analista de sistemas, analista funcional, programador, arquitecto, tester, implementador, migración, DevOps y UX",
+           "options":[
+              {
+                 "textoRespuesta":"Cada rol tiene responsabilidades específicas, como el analista de sistemas que diseña soluciones técnicas y el UX que se enfoca en la experiencia del usuario",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"El programador y el arquitecto de software tienen las mismas responsabilidades",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El tester verifica el código, mientras que el analista funcional se encarga de escribir el código",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"El implementador realiza pruebas de software antes de su despliegue",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cómo conectamos en un mismo ambiente de trabajo a las diferentes generaciones?",
+           "options":[
+              {
+                 "textoRespuesta":"Fomentando la colaboración intergeneracional, comunicación abierta y respeto mutuo, aprovechando las fortalezas de cada generación",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Reemplazando a los trabajadores mayores por jóvenes para modernizar el ambiente de trabajo",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Fomentando un entorno donde cada generación trabaje de forma aislada para maximizar su eficiencia",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Implementando políticas de trabajo únicamente basadas en las preferencias de los más jóvenes",
+                 "isCorrect":false
+              }
+           ]
+        },
+        {
+           "type":"multiple_choice",
+           "question":"¿Cómo se comportan y qué tener en cuenta?",
+           "options":[
+              {
+                 "textoRespuesta":"Las diferentes generaciones tienen expectativas distintas: Baby Boomers valoran estabilidad, la Generación X busca autonomía, los Millennials priorizan flexibilidad y los Gen Z buscan entornos colaborativos",
+                 "isCorrect":true
+              },
+              {
+                 "textoRespuesta":"Todas las generaciones buscan lo mismo, solo varía el tipo de trabajo que realizan",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"Las generaciones más jóvenes valoran solo la estabilidad y los mayores buscan flexibilidad",
+                 "isCorrect":false
+              },
+              {
+                 "textoRespuesta":"La Generación X prefiere un trabajo rutinario mientras que los Baby Boomers son más flexibles con el horario",
+                 "isCorrect":false
+              }
+           ]
+        }
+     ]
+}

@@ -16,14 +16,19 @@ const Card = ({ matter }) => {
   });
 
   function handleMatter() {
-    let questions = [];
-    if (matter === "Sintaxis") {
-      questions = Sintaxis[questionType];
-    } else {
-      questions = Administracion[questionType];
-    }
-    setFilteredQuestions(questions || []);
+  let questions = [];
+  if (matter === "Sintaxis") {
+    questions = Sintaxis[questionType];
+  } else {
+    questions = Administracion[questionType];
   }
+  setFilteredQuestions(questions || []);
+}
+
+  
+
+  console.log(filteredQuestions);
+  
 
   let currentQuestion = filteredQuestions[currentQuestionIndex];
 
