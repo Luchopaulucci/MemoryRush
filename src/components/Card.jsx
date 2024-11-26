@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
 import PropTypes from "prop-types";
 
-import Sintaxis from "../assets/ssl.json";
-import Administracion from "../assets/adp_parcial1.json";
+import Diseño from "../assets/diseño.json";
 
 const Card = ({ matter }) => {
   const [input, setInput] = useState("");
@@ -17,18 +16,13 @@ const Card = ({ matter }) => {
 
   function handleMatter() {
   let questions = [];
-  if (matter === "Sintaxis") {
-    questions = Sintaxis[questionType];
+  if (matter === "Diseño") {
+    questions = Diseño[questionType];
   } else {
-    questions = Administracion[questionType];
+    questions = Diseño[questionType];
   }
   setFilteredQuestions(questions || []);
-}
-
-  
-
-  console.log(filteredQuestions);
-  
+} 
 
   let currentQuestion = filteredQuestions[currentQuestionIndex];
 
@@ -106,7 +100,7 @@ const Card = ({ matter }) => {
 
   return (
     <>
-      <div className="max-h-max flex justify-center gap-4 my-4">
+      <div className="flex justify-center gap-4 my-4">
         <button
           className="p-2 rounded-lg"
           onClick={() => {
@@ -147,7 +141,7 @@ const Card = ({ matter }) => {
               <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
               <div className="w-3 h-3 rounded-full bg-green-500"></div>
             </div>
-            <p className="text-sm">SSL</p>
+            <p className="text-sm">Diseño Patrones</p>
           </div>
           <div className="mt-4 flex flex-col gap-5">
             <p className="text-green-400">$ {currentQuestion.type}</p>
