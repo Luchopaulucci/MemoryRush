@@ -1,0 +1,458 @@
+{
+  "true_false": [
+    {
+      "type": "true_false",
+      "question": "Que es la cohesion",
+      "correct_answer": true
+    }
+  ],
+  "complete": [
+    {
+      "type": "complete",
+      "question": "NO HAY PREGUNTAS",
+      "correct_answer": "-"
+    }
+  ],
+  "multiple_choice": [
+    {
+      "type": "multiple_choice",
+      "question": "Que es la cohesion",
+      "options": [
+        {
+          "textoRespuesta": "Es una medida de fuerza con la que los objetos se relacionan y del grado de focalización de las responsabilidades de un elemento",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Es el nivel de acoplamiento entre los objetos y su capacidad para interactuar con otros sistemas.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Es el grado en que un objeto puede ejecutar tareas concurrentes de forma eficiente.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Es el nivel de reutilización de un objeto en diferentes contextos de un sistema.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Patrón GoF Factoria Problema: ¿Quién debe ser el responsable de la creación de los objetos cuando existen consideraciones especiales, como una lógica de creación compleja, el deseo de separar las responsabilidades de la creación para mejorar la cohesión, etcétera? EJEPLO: Quién crea los adaptadores o estrategias? Y cómo determinar qué clase de adaptador/estrategia crear?",
+      "options": [
+        {
+          "textoRespuesta": "Implementar un objeto Abstract Factory que elimine completamente la dependencia entre objetos.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Optar por un patrón Observador para gestionar la creación y el seguimiento de los objetos.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solución: Crear un objeto Fabricación Pura denominado Factoría que maneje la creación.",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Usar un método Builder para dividir la creación de objetos en pasos más simples.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "¿Qué es un clasificador? (esto no es de patrones especificamente pero sirve para entender otras coasas)",
+      "options": [
+        {
+          "textoRespuesta": "En UML un clasificador es un elemento del modelo que describe el comportamiento y características de la estructura, ejemplos de ellos son: Clases, interfaces, casos de uso y actores",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "En UML un clasificador es un elemento del modelo que describe el comportamiento y características de la estructura, ejemplos de ellos son: Clases abstractas, atributos y métodos estáticos",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "En UML un clasificador es un elemento del modelo que describe el comportamiento y características de la estructura, ejemplos de ellos son: Actores, relaciones de herencia y componentes de despliegue.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "En UML un clasificador es un elemento del modelo que describe el comportamiento y características de la estructura, ejemplos de ellos son: Entidades, procesos y flujos de datos.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "No Hable con Extraños (subtipo del patron Variaciones protegidas) restringe los objetos a los que deberías enviar los mensajes.Establece que en un método, sólo deberían enviarse mensajes a los siguientes objetos: ",
+      "options": [
+        {
+          "textoRespuesta": "Una variable global accesible desde cualquier clase. Un atributo de clase que pertenece al prototipo del lenguaje. El resultado de un método que no devuelve valores. Un método privado de otra clase sin usar herencia",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "El objeto this (o self). Un parámetro del método. Un atributo de this. Un elemento de una colección que es un atributo de this. Un objeto creado en el método.",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Un atributo local que persiste fuera del método. Un atributo de this que no ha sido definido previamente. Una constante declarada dentro de un bloque externo. Un método heredado pero sobrescrito por completo.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Un elemento de una colección que pertenece a una clase no relacionada. Un atributo estático al que se accede sin el nombre de la clase Un parámetro que no se pasa explícitamente al método. Una referencia a un objeto destruido previamente por el recolector de basura.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Patrón GoF: Composite Problema: ¿Cómo tratar un grupo o una estructura compuesta del mismo modo (polimórficamente) que un objeto no compuesto (atómico)?",
+      "options": [
+        {
+          "textoRespuesta": "Solucion: Cree métodos diferentes para cada tipo de objeto y evite el uso de un interfaz común.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Implemente clases independientes sin relación entre los objetos compuestos y atómicos.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Aplique sobrecarga de métodos en lugar de definir un interfaz compartido.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solución: Defina las clases para los objetos compuestos y atómicos de manera que implementen el mismo interfaz.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Cuales son los últimos 4 patrones GRASP",
+      "options": [
+        {
+          "textoRespuesta": "Delegación, Modularidad, Encapsulación General, Herencia Parcial, Indireccion",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Polimorfismo, Indirección, Fabricación Pura, Variaciones Protegidas",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Sobrecarga de Métodos, Generalización, Componentización, Variaciones Protegidas",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Cohesión, Acoplamiento, Herencia Múltiple, Relaciones de Asociación",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Qué hace una clase con baja cohesión",
+      "options": [
+        {
+          "textoRespuesta": "Maximiza la reutilización al enfocarse en una única tarea",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solo realiza una tarea específica y bien definida",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Hace muchas cosas no relacionadas, o hace demasiado trabajo",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Implementa un único patrón de diseño para cumplir con su propósito",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Qué describren los patrones GRASP",
+      "options": [
+        {
+          "textoRespuesta": "Describen los principios fundamentales del diseño de objetos y la asignación de responsabilidades, expresados como patrones",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Están diseñados para eliminar completamente la redundancia en el código.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Describen únicamente las estructuras de datos utilizadas en un programa.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Se enfocan exclusivamente en la implementación de algoritmos eficientes, los cuales los definen en ciertos patrones",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Patrón: Polimorfismo Problema: ¿Cómo manejar las alternativas basadas en el tipo? ¿Cómo crear componentes software conectables (pluggable)?",
+      "options": [
+        {
+          "textoRespuesta": "Solucion: Defina todas las variaciones de comportamiento dentro de una única clase base y utilice estructuras condicionales para decidir qué acción tomar según el tipo de objeto.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Implemente las diferentes alternativas de comportamiento como métodos estáticos dentro de una clase auxiliar, para que puedan ser llamados directamente sin necesidad de crear instancias específicas.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Defina todas las variaciones de comportamiento en una clase base y utilice condicionales para seleccionar el comportamiento adecuado.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solución: Cuando las alternativas o comportamientos relacionados varían según el tipo (clase), asigne la responsabilidad para el comportamiento —utilizando operaciones polimórficas— a los tipos para los que varía el comportamiento. O sea,asignar el mismo nombre a servicios en diferentes objetos cuando los servicios son parecidos o están relacionados",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Los 5 patrones básicos GRASP son:",
+      "options": [
+        {
+          "textoRespuesta": "Experto en Información, Creador, Alta cohesión, Bajo Acomplamiento, Controlador",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Experto en Modularidad, Centralizador de Responsabilidades, Fabricante de Objetos Dinámicos, Administrador de Relaciones de Clases, Especialista en Métodos Compartidos",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Coordinador de Tareas, Distribuidor Global, Controlador de Estados, Gestor de Vistas, Facilitador de Proceso",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Operador Polimórfico, Controlador Estático, Gestor de Dependencias Múltiples, Organizador de Recursos, Centralizador de Datos",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Patrón: Controlador Problema:¿Quién debe ser el responsable de gestionar un evento de entrada al sistema?",
+      "options": [
+        {
+          "textoRespuesta": "Solucion: Asignar la responsabilidad a una clase genérica que actúe como intermediaria entre todas las capas del sistema, independientemente de si representa un caso de uso o un subsistema.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solución: Asignar la responsabilidad de recibir o manejar un mensaje de evento del sistema a una clase que representa una de las siguientes opciones: .Representa el sistema global, dispositivo o subsistema (controlador de fachada) .Representa un escenario de caso de uso en el que tiene lugar el evento del sistema, a menudo denominado <NombreDelCasoDeUso>Manejador",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Solucion: Asignar la responsabilidad de recibir o manejar un mensaje de evento del sistema a una clase que implemente directamente todos los detalles del evento, sin tener en cuenta el caso de uso o el subsistema involucrado.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Delegar la responsabilidad del manejo del evento a múltiples clases auxiliares que trabajen en conjunto, sin designar un controlador principal para centralizar el proceso.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Qué es una responsabilidad según UML",
+      "options": [
+        {
+          "textoRespuesta": "Es un contrato u obligación de un clasificador. O sea, las responsabilidades están relacionadas con las obligaciones de un objeto en cuanto a su comportamiento",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Es un conjunto de métodos estáticos asociados a un clasificador para realizar tareas independientes del estado del objeto.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Es una estructura de datos que describe cómo se almacenan y organizan los atributos de un clasificador dentro del sistema.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Es una relación jerárquica entre clasificadores que define cómo heredan atributos y comportamientos entre ellos, garantizando la reutilización del código.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Qué es el acoplamiento",
+      "options": [
+        {
+          "textoRespuesta": "Es una estimación de la complejidad algorítmica de un elemento basada en la cantidad de operaciones internas que realiza.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Es una medida de la cantidad de métodos que un elemento implementa para garantizar su funcionalidad principal dentro del sistema.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Es una medida de la fuerza con que un elemento está conectado a, tiene conociemiento de, confía en, otros elementos. ",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Es el nivel de reutilización de código que un elemento permite al ser combinado con otros elementos dentro de un mismo subsistema.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Qué es un evento del sistema de entrada",
+      "options": [
+        {
+          "textoRespuesta": "Es una operación interna generada por el sistema que se ejecuta de manera automática según un cronograma definido.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Es un evento generado por un actor externo. Se asocian con operaciones del sistema.",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Es un mensaje de error generado por el sistema cuando ocurre una excepción durante la ejecución de un proceso.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Es un cambio en el estado de un objeto dentro del sistema, provocado por la interacción entre distintos módulos.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Patrón: Bajo Acoplamiento Problema: ¿Cómo soportar bajas dependencias, bajo impacto del cambio e incremento de la reutilización?",
+      "options": [
+        {
+          "textoRespuesta": "Solucion: Asignar una responsabilidad sin considerar la complejidad del comportamiento del objeto.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solución: Asignar una responsabilidad de manera que el acoplamiento permanezca bajo.",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Solucion: Centralizar todas las responsabilidades en una única clase sin dividirlas entre los componentes adecuados.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Distribuir las responsabilidades de manera equitativa entre todos los objetos del sistema sin considerar la lógica del negocio.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Qué significan las siglas GRASP",
+      "options": [
+        {
+          "textoRespuesta": "General Responsability Assignment Software Patterns, Patrones de Principios Generales para Asignar responsabilidades",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "General Responsibility Assignment Software Principles, Principios Generales de Asignación de Responsabilidades en Software",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "General Rules for Assigning System Patterns, Reglas Generales para Asignar Patrones del Sistema",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Global Responsibility Assignment System Patterns, Patrones del Sistema de Asignación de Responsabilidades Globales",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Responsabilidades de conocer de un objeto",
+      "options": [
+        {
+          "textoRespuesta": "Conocer los datos privados encapsulados, Conocer los objetos relacionados, Conocer las cosas que puede derivar o calcular",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Acceder a los datos privados públicos, Conocer los métodos internos de otras clases sin restricciones, Acceder directamente a los atributos de otros objetos sin necesidad de interfaces",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Modificar los datos privados de otras clases directamente sin validaciones, Acceder a los objetos internos del sistema sin ninguna abstracción, Cambiar las propiedades de objetos ajenos sin necesidad de obtener su consentimiento.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Acceder a los métodos públicos sin respetar el encapsulamiento de las clases, Conocer la implementación interna de objetos sin seguir el principio de ocultación de información, Realizar cálculos sin tener en cuenta las restricciones de las clases relacionadas.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Patrón GoF: Fachada Problema: Se requiere una interfaz común, unificada para un conjunto de implementaciones o interfaces dispares —como en un subsistema—. Podría no ser conveniente acoplarla con muchas cosas del subsistema, o la implementación del subsistema podría cambiar. ¿Qué hacemos?",
+      "options": [
+        {
+          "textoRespuesta": "Solucion: Utilice una interfaz global para acceder a todos los componentes del sistema sin necesidad de encapsular los subsistemas.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Implemente varios objetos con interfaces individuales para cada componente del subsistema, sin consolidarlos en un solo punto de entrada.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solución: Defina un único punto de conexión con el subsistema —un objeto fachada que envuelve al subsistema—.Este objeto fachada presenta una única interfaz unificada y es responsable de colaborar con los componentes del subsistema.",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Solucion: Cree múltiples puntos de conexión dispersos entre los subsistemas para permitir un acceso flexible desde cualquier componente",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Patrón GoF: Adaptador Problema: ¿Cómo resolver interfaces incompatibles, o proporcionar una interfaz estable para componentes parecidos con diferentes interfaces?",
+      "options": [
+        {
+          "textoRespuesta": "Solucion: Cree una interfaz completamente nueva para el componente sin necesidad de un adaptador intermedio.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Modifique directamente el componente para que sea compatible con la nueva interfaz, sin utilizar un adaptador.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Defina múltiples adaptadores para cada funcionalidad del componente, sin unificar la interfaz.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solución: Convierta la interfaz original de un componente en otra interfaz, mediante un objeto adaptador intermedio. ",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Patrón: Variaciones Protegidas Problema: ¿Cómo diseñar objetos, subsistemas y sistemas de manera que las variaciones o inestabilidades en estos elementos no tengan un impacto no deseable en otros elementos?",
+      "options": [
+        {
+          "textoRespuesta": "Solución: Identifique los puntos de variaciones previstas o de inestabilidad; asigne responsabilidades para crear una interfaz estable alrededor de ellos.",
+          "isCorrect": true
+        },
+        {
+          "textoRespuesta": "Solucion: Identifique los puntos de variación e inestabilidad y mantenga las responsabilidades dispersas entre varios componentes para adaptarse a los cambios.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Concentre todas las responsabilidades en un solo componente, sin tener en cuenta los puntos de variación, para reducir la cantidad de interfaces.",
+          "isCorrect": false
+        },
+        {
+          "textoRespuesta": "Solucion: Ignore los puntos de variación e inestabilidad y asigne responsabilidades sin considerar las posibles modificaciones en el futuro.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
