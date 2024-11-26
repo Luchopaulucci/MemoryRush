@@ -41,11 +41,11 @@
       "question": "Patrón GoF Factoria Problema: ¿Quién debe ser el responsable de la creación de los objetos cuando existen consideraciones especiales, como una lógica de creación compleja, el deseo de separar las responsabilidades de la creación para mejorar la cohesión, etcétera? EJEPLO: Quién crea los adaptadores o estrategias? Y cómo determinar qué clase de adaptador/estrategia crear?",
       "options": [
         {
-          "textoRespuesta": "Implementar un objeto Abstract Factory que elimine completamente la dependencia entre objetos.",
+          "textoRespuesta": "Solución: Implementar un objeto Abstract Factory que elimine completamente la dependencia entre objetos.",
           "isCorrect": false
         },
         {
-          "textoRespuesta": "Optar por un patrón Observador para gestionar la creación y el seguimiento de los objetos.",
+          "textoRespuesta": "Solución: Optar por un patrón Observador para gestionar la creación y el seguimiento de los objetos.",
           "isCorrect": false
         },
         {
@@ -53,7 +53,7 @@
           "isCorrect": true
         },
         {
-          "textoRespuesta": "Usar un método Builder para dividir la creación de objetos en pasos más simples.",
+          "textoRespuesta": "Solución: Usar un método Builder para dividir la creación de objetos en pasos más simples.",
           "isCorrect": false
         }
       ]

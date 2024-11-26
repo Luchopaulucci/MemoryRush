@@ -101,7 +101,7 @@ const Card = ({ matter }) => {
   return (
     <>
       <div className="flex justify-center gap-4 my-4">
-        <button
+        {/* <button
           className="p-2 rounded-lg"
           onClick={() => {
             setQuestionType("true_false");
@@ -118,7 +118,7 @@ const Card = ({ matter }) => {
           }}
         >
           Completar
-        </button>
+        </button> */}
         <button
           className="p-2 rounded-lg"
           onClick={() => {
