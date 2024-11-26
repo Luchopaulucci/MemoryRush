@@ -173,10 +173,10 @@ const Card = ({ matter }) => {
               </div>
             )}
             {currentQuestion.type === "complete" && (
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-6 sm:max-w-max max-w-xs">
                 <input
                   type="text"
-                  className="p-2 rounded-md"
+                  className="p-3 rounded-md w-full text-black"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   placeholder="Escriba su respuesta aquí en minusculas y sin acentos"
