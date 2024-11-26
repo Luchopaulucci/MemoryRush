@@ -100,9 +100,9 @@ const Card = ({ matter }) => {
 
   return (
     <>
-      <div className="flex justify-center gap-4 my-4">
-        {/* <button
-          className="p-2 rounded-lg"
+      <div className="max-h-max flex justify-center gap-4 my-4">
+        <button
+          className="p-2 rounded-lg bg-slate-900 hover:bg-slate-950 transition"
           onClick={() => {
             setQuestionType("true_false");
             setCurrentQuestionIndex(0);
@@ -111,16 +111,16 @@ const Card = ({ matter }) => {
           Verdadero o Falso
         </button>
         <button
-          className="p-2 rounded-lg"
+          className="p-2 rounded-lg bg-slate-900 hover:bg-slate-950 transition"
           onClick={() => {
             setQuestionType("complete");
             setCurrentQuestionIndex(0);
           }}
         >
           Completar
-        </button> */}
+        </button>
         <button
-          className="p-2 rounded-lg"
+          className="p-2 rounded-lg bg-slate-900 hover:bg-slate-950 transition"
           onClick={() => {
             setQuestionType("multiple_choice");
             setCurrentQuestionIndex(0);
@@ -133,7 +133,7 @@ const Card = ({ matter }) => {
       {currentQuestion && (
         <div
           key={currentQuestion.id}
-          className="bg-slate-950 text-white p-6 rounded-lg max-w-lg font-mono my-6"
+          className="bg-slate-950 text-white p-6 rounded-lg max-w-xl font-mono my-6"
         >
           <div className="flex justify-between items-center">
             <div className="flex space-x-2 text-red-500">
@@ -147,9 +147,9 @@ const Card = ({ matter }) => {
             <p className="text-green-400">$ {currentQuestion.type}</p>
             <p className="text-white">{currentQuestion.question}</p>
             {currentQuestion.type === "true_false" && (
-              <div className="flex justify-start items-center w-full flex-row gap-5">
+              <div className="flex justify-start items-center w-full flex-row gap-2">
                 <button
-                  className="p-2 w-min"
+                  className="p-2 w-min bg-slate-700 rounded-md"
                   onClick={() =>
                     handleVerification(true, currentQuestion.correct_answer)
                   }
@@ -157,7 +157,7 @@ const Card = ({ matter }) => {
                   Verdadera
                 </button>
                 <button
-                  className="p-2 w-min"
+                  className="p-2 w-min bg-slate-700 rounded-md"
                   onClick={() =>
                     handleVerification(false, currentQuestion.correct_answer)
                   }
@@ -165,7 +165,7 @@ const Card = ({ matter }) => {
                   Falsa
                 </button>
                 <button
-                  className="p-2 w-max"
+                  className="p-2 w-max bg-slate-700 rounded-md"
                   onClick={() => goToNextQuestion()}
                 >
                   Siguiente pregunta
@@ -173,17 +173,17 @@ const Card = ({ matter }) => {
               </div>
             )}
             {currentQuestion.type === "complete" && (
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-6">
                 <input
                   type="text"
-                  className="p-2 rounded-lg"
+                  className="p-2 rounded-md"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  placeholder="Escribe tu respuesta aquí"
+                  placeholder="Escriba su respuesta aquí en minusculas y sin acentos"
                 />
-                <div className="flex flex-row gap-6">
+                <div className="flex flex-row gap-2">
                   <button
-                    className="p-2 w-max"
+                    className="p-2 w-max bg-slate-700 rounded-md"
                     onClick={() =>
                       handleInput(input, currentQuestion.correct_answer)
                     }
@@ -191,13 +191,13 @@ const Card = ({ matter }) => {
                     Verificar Respuesta
                   </button>
                   <button
-                    className="p-2 w-max"
+                    className="p-2 w-max bg-slate-700 rounded-md"
                     onClick={() => goToNextQuestion()}
                   >
                     Siguiente pregunta
                   </button>
                   <button
-                    className="p-2 w-max"
+                    className="p-2 w-max bg-slate-700 rounded-md"
                     onClick={() => {
                         showCorrectAnswer(currentQuestion.correct_answer),
                         goToNextQuestion();
@@ -209,18 +209,18 @@ const Card = ({ matter }) => {
               </div>
             )}
             {currentQuestion.type === "multiple_choice" && (
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-6">
                 {currentQuestion.options.map((option, index) => (
                   <button
                     key={index}
-                    className="p-2 w-full bg-blue-500 rounded-lg"
+                    className="p-2 w-full bg-blue-600 hover:bg-blue-800 transition rounded-md"
                     onClick={() => handleVerification(option.isCorrect, true)}
                   >
                     {option.textoRespuesta}
                   </button>
                 ))}
                 <button
-                  className="p-2 w-max mt-4 bg-gray-600 rounded-lg"
+                  className="p-2 w-max mt-4 bg-slate-700 rounded-md"
                   onClick={() => goToNextQuestion()}
                 >
                   Siguiente pregunta

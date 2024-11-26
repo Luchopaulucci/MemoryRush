@@ -2,15 +2,85 @@
   "true_false": [
     {
       "type": "true_false",
-      "question": "Que es la cohesion",
+      "question": "La cohesión mide qué tan relacionada está la funcionalidad dentro de un módulo.",
+      "correct_answer": true
+    },
+    {
+      "type": "true_false",
+      "question": "El acoplamiento bajo entre módulos mejora la mantenibilidad de un sistema.",
+      "correct_answer": true
+    },
+    {
+      "type": "true_false",
+      "question": "Un sistema con acoplamiento alto tiene más probabilidades de ser reutilizable.",
+      "correct_answer": false
+    },
+    {
+      "type": "true_false",
+      "question": "Un módulo con cohesión funcional tiene todas sus tareas relacionadas con un único propósito.",
+      "correct_answer": true
+    },
+    {
+      "type": "true_false",
+      "question": "El acoplamiento de control ocurre cuando un módulo depende de los detalles internos de otro.",
+      "correct_answer": false
+    },
+    {
+      "type": "true_false",
+      "question": "Un sistema con módulos altamente cohesivos suele ser más fácil de entender y mantener.",
+      "correct_answer": true
+    },
+    {
+      "type": "true_false",
+      "question": "El acoplamiento de contenido es deseable en el diseño de sistemas.",
+      "correct_answer": false
+    },
+    {
+      "type": "true_false",
+      "question": "La cohesión temporal ocurre cuando las actividades de un módulo están relacionadas en el tiempo.",
       "correct_answer": true
     }
   ],
   "complete": [
     {
       "type": "complete",
-      "question": "NO HAY PREGUNTAS",
-      "correct_answer": "-"
+      "question": "El principio de diseño que busca agrupar funciones relacionadas dentro de un mismo módulo se llama __.",
+      "correct_answer": "cohesion"
+    },
+    {
+      "type": "complete",
+      "question": "Para facilitar la __ de un sistema, se recomienda minimizar las dependencias entre sus módulos.",
+      "correct_answer": "mantenibilidad"
+    },
+    {
+      "type": "complete",
+      "question": "El __ bajo entre módulos permite que cambios en un módulo no afecten significativamente a otros.",
+      "correct_answer": "acoplamiento"
+    },
+    {
+      "type": "complete",
+      "question": "El __ estructural ocurre cuando un módulo requiere la estructura interna de otro para funcionar.",
+      "correct_answer": "acoplamiento"
+    },
+    {
+      "type": "complete",
+      "question": "Un módulo con __ funcional realiza únicamente las tareas relacionadas con un propósito específico.",
+      "correct_answer": "cohesion"
+    },
+    {
+      "type": "complete",
+      "question": "El __ de datos ocurre cuando un módulo proporciona datos sin restricciones a otro módulo.",
+      "correct_answer": "acoplamiento"
+    },
+    {
+      "type": "complete",
+      "question": "Los módulos con __ baja suelen ser más difíciles de reutilizar porque están muy conectados entre sí.",
+      "correct_answer": "cohesion"
+    },
+    {
+      "type": "complete",
+      "question": "Reducir el __ entre módulos mejora la capacidad del sistema para soportar cambios.",
+      "correct_answer": "acoplamiento"
     }
   ],
   "multiple_choice": [
